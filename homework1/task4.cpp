@@ -13,10 +13,8 @@ int main()
 		if (num % i == 0)
 		{
 			cout << i <<endl;
-		
 		}
-
-		i++;
+		
 	}
 
 	system("pause");
