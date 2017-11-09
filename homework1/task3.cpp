@@ -11,11 +11,8 @@ int main()
 
 	do
 	{
-		if (num>0)
-		{
-			count++;
-		}
 		num /= 10;
+		count++;
 
 	} while (num != 0);
 
