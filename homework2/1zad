@@ -43,7 +43,7 @@ int main()
 
 	for (int i = 0; i < size; i++)
 	{
-		if (i = 1)
+		if (i == 1)
 		{
 		for (int j = 0; j < size; j++)
 		{
@@ -54,7 +54,7 @@ int main()
 		cout <<"sum= "<< sum2<<endl;
 		}
 
-		if (i = 3)
+		if (i == 3)
 		{
 			for (int j = 0; j < size; j++)
 			{
@@ -62,10 +62,10 @@ int main()
 				cout << arr[i][j] << " ";
 			}
 
-			cout << "sum= " << sum4 << endl;
+			cout << "sum = " << sum4 << endl;
 		}
 
-		if (i = 5)
+		if (i == 5)
 		{
 			for (int j = 0; j < size; j++)
 			{
@@ -73,7 +73,7 @@ int main()
 				cout << arr[i][j] << " ";
 			}
 
-			cout << "sum= " << sum6 << endl;
+			cout << "sum = " << sum6 << endl;
 		}
 	}
 
