@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-char countofNum(char* str, int SIZE)
+int countofNum(char* str, int SIZE)
 {	
 	int countnum = 0;
 
@@ -16,7 +16,7 @@ char countofNum(char* str, int SIZE)
 	return countnum;
 }
 
-char countofUpperletter(char* str, int SIZE)
+int countofUpperletter(char* str, int SIZE)
 {
 	int countupper = 0;
 
@@ -31,7 +31,7 @@ char countofUpperletter(char* str, int SIZE)
 	return countupper;
 }
 
-char countofLowerletter(char* str, int SIZE)
+int countofLowerletter(char* str, int SIZE)
 {
 	int countlower = 0;
 
@@ -48,13 +48,11 @@ char countofLowerletter(char* str, int SIZE)
 
 int main()
 {	
-	const int size = 10;
+	
+	const int size = 11;
 	char word[size];
 
-	for (int i = 0; i < size; i++)
-	{
-		cin >> word[i];
-	}
+	cin.getline(word, size);
 
 	cout << "numbers = " << countofNum(word, size) << endl;
 	cout << "Upper Letter  = " << countofUpperletter(word, size) << endl;
@@ -64,4 +62,5 @@ int main()
 
     return 0;
 }
+
 
