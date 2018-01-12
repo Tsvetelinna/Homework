@@ -8,7 +8,6 @@ char toUpper(char c)
 	return c;
 }
 
-
 int main()
 {
 	char letter;
