@@ -6,7 +6,7 @@ int main()
 {
 	for (char sym = 'A'; sym<='Z'; sym++)
 	{
-		cout << "ASCII code (" << sym << ") = " << (int)sym << endl;
+		cout <<sym << "  " << (int)sym << endl;
 	}
 	
 	
